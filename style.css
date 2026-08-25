@@ -1331,3 +1331,22 @@ width:100%;
     visibility: visible;
     opacity: 1;
 }
+.hero-image {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 100% !important;
+    min-height: 300px;
+    overflow: visible !important;
+}
+
+.hero-image img {
+    display: block !important;
+    width: 100% !important;
+    max-width: 700px !important;
+    height: auto !important;
+    min-height: 250px;
+    object-fit: contain !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
