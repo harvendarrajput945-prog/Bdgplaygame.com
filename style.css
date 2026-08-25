@@ -1315,3 +1315,19 @@ width:100%;
 }
 
 }
+.hero-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.hero-image img {
+    display: block;
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    object-fit: cover;
+    visibility: visible;
+    opacity: 1;
+}
