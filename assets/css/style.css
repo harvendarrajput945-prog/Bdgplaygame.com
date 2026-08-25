@@ -531,15 +531,28 @@ text-align:center;
 
 }
 
+/* Hero Image */
+
+.hero-image{
+    display:block !important;
+    width:100% !important;
+    text-align:center;
+    visibility:visible !important;
+    opacity:1 !important;
+}
+
 .hero-image img{
-
-max-width:100%;
-
-border-radius:20px;
-
-box-shadow:0 20px 40px rgba(0,0,0,.4);
-
-animation:floatImage 4s ease-in-out infinite;
+    display:block !important;
+    width:100% !important;
+    max-width:700px !important;
+    height:auto !important;
+    margin:20px auto !important;
+    border-radius:20px;
+    box-shadow:0 20px 40px rgba(0,0,0,.4);
+    animation:floatImage 4s ease-in-out infinite;
+    visibility:visible !important;
+    opacity:1 !important;
+}
 
 }
 
