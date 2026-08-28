@@ -1303,15 +1303,15 @@ border-radius:16px;
 }
 
 .shadow{
-
-box-shadow:0 12px 30px rgba(0,0,0,.25);
-
-media (max-width:768px){
-
-.contact-form button{
-
-width:100%;
-
+    box-shadow:0 12px 30px rgba(0,0,0,.25);
 }
+
+/* Contact Form Mobile */
+
+@media (max-width:768px){
+
+    .contact-form button{
+        width:100%;
+    }
 
 }
