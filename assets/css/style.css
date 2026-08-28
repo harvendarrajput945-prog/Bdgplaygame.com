@@ -526,48 +526,34 @@ transform:translateY(-4px);
 /* Hero Image */
 
 .hero-image{
-
-text-align:center;
-
-}
-
-/* Hero Image */
-
-.hero-image{
-    display:block !important;
-    width:100% !important;
+    display:block;
+    width:100%;
     text-align:center;
-    visibility:visible !important;
-    opacity:1 !important;
 }
 
 .hero-image img{
-    display:block !important;
-    width:100% !important;
-    max-width:700px !important;
-    height:auto !important;
-    margin:20px auto !important;
+    display:block;
+    width:100%;
+    max-width:700px;
+    height:auto;
+    margin:20px auto;
     border-radius:20px;
     box-shadow:0 20px 40px rgba(0,0,0,.4);
     animation:floatImage 4s ease-in-out infinite;
-    visibility:visible !important;
-    opacity:1 !important;
-}
-
 }
 
 @keyframes floatImage{
+    0%{
+        transform:translateY(0);
+    }
 
-0%{
-transform:translateY(0);
-}
+    50%{
+        transform:translateY(-12px);
+    }
 
-50%{
-transform:translateY(-12px);
-}
-
-100%{
-transform:translateY(0);
+    100%{
+        transform:translateY(0);
+    }
 }
 
 }/* ==========================================
