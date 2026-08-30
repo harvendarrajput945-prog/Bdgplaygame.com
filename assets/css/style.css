@@ -1,4 +1,4 @@
-
+to
 /* ==========================================
    GameHub Pro - Premium CSS
    Part 1
@@ -1386,24 +1386,164 @@ transform:translateY(-5px);
    UTILITY CLASSES
 ========================================== */
 
-.text-center{
-
-text-align:center;
-
+.text-center {
+    text-align: center;
 }
 
-.mt-30{
-
-margin-top:30px;
-
+.mt-30 {
+    margin-top: 30px;
 }
 
-.mb-30{
-
-margin-bottom:30px;
-
+.mb-30 {
+    margin-bottom: 30px;
 }
 
+.rounded {
+    border-radius: 16px;
+}
+
+.shadow {
+    box-shadow: 0 12px 30px rgba(0,0,0,.25);
+}
+
+
+/* ==========================================
+   MOBILE FIX
+========================================== */
+
+@media (max-width:768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .container {
+        width: 92%;
+        max-width: 100%;
+    }
+
+    .header .container {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px 0;
+    }
+
+    .logo {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .navbar {
+        width: 100%;
+    }
+
+    .navbar ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px 16px;
+    }
+
+    .navbar a {
+        font-size: 14px;
+    }
+
+    .header-buttons {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .login-btn,
+    .register-btn {
+        width: auto;
+        text-align: center;
+        padding: 10px 18px;
+    }
+
+    .hero {
+        padding: 50px 0;
+    }
+
+    .hero-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 35px;
+        text-align: center;
+    }
+
+    .hero-content h1 {
+        font-size: 34px;
+        line-height: 1.25;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+        margin: 0 auto 25px;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .primary-btn,
+    .secondary-btn,
+    .download-btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-image {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .hero-image img {
+        display: block;
+        width: 100%;
+        max-width: 650px;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .section-title h2 {
+        font-size: 32px;
+    }
+
+    .section-title p {
+        font-size: 16px;
+    }
+
+    .guide-grid,
+    .feature-grid,
+    .review-grid,
+    .stats-grid,
+    .footer-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .guide-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .newsletter-form {
+        flex-direction: column;
+    }
+
+    .newsletter-form input,
+    .newsletter-form button {
+        width: 100%;
+    }
+
+}
 .rounded{
 
 border-radius:16px;
