@@ -2043,3 +2043,44 @@ border-radius:16px;
     }
 
 }
+/* ==========================================
+   FINAL MOBILE SPACING FIX
+========================================== */
+
+@media (max-width:768px){
+
+    /* Hero section spacing */
+    .hero{
+        padding:40px 0 25px !important;
+    }
+
+    /* Hero image */
+    .hero-image{
+        margin-top:15px !important;
+        margin-bottom:0 !important;
+    }
+
+    .hero-image img{
+        width:100% !important;
+        max-width:650px !important;
+        height:auto !important;
+    }
+
+    /* Latest Guides section */
+    .guides{
+        padding:25px 0 40px !important;
+    }
+
+    .guides .section-title{
+        margin-bottom:30px !important;
+    }
+
+    .guides .section-title span{
+        margin-bottom:12px !important;
+    }
+
+    .guides .section-title h2{
+        margin-bottom:12px !important;
+    }
+
+}
