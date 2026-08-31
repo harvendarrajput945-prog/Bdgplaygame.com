@@ -2012,3 +2012,34 @@ border-radius:16px;
     }
 
 }
+/* ==========================================
+   FINAL MOBILE HERO + LATEST GUIDES SPACING
+========================================== */
+
+@media (max-width: 768px) {
+
+    /* Hero section ka extra bottom space kam */
+    .hero {
+        padding-bottom: 25px !important;
+    }
+
+    /* Hero image ke neeche gap kam */
+    .hero-image {
+        margin-bottom: 10px !important;
+    }
+
+    .hero-image img {
+        margin-bottom: 0 !important;
+    }
+
+    /* Latest Guides section ko upar lao */
+    .guides {
+        padding-top: 25px !important;
+    }
+
+    /* Latest Guides heading ke neeche ka gap */
+    .guides .section-title {
+        margin-bottom: 25px !important;
+    }
+
+}
