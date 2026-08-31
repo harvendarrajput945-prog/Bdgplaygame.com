@@ -2084,3 +2084,30 @@ border-radius:16px;
     }
 
 }
+/* ==========================================
+   FINAL MOBILE SPACING FIX
+========================================== */
+
+@media (max-width: 768px) {
+
+    /* Hero ke neeche ka extra space kam */
+    .hero {
+        padding-bottom: 25px !important;
+    }
+
+    /* Hero image ke baad Latest Guides ko upar lao */
+    .guides {
+        padding-top: 30px !important;
+        padding-bottom: 50px !important;
+    }
+
+    /* Latest Guides aur heading ke beech gap kam */
+    .section-title {
+        margin-bottom: 25px !important;
+    }
+
+    .section-title span {
+        margin-bottom: 10px !important;
+    }
+
+}
