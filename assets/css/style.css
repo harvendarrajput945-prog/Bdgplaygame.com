@@ -1981,3 +1981,34 @@ border-radius:16px;
     }
 
 }
+/* ==========================================
+   MOBILE - HERO & LATEST GUIDES SPACING FIX
+========================================== */
+
+@media (max-width: 768px) {
+
+    /* Hero section ko compact karo */
+    .hero {
+        padding: 35px 0 20px !important;
+    }
+
+    /* Hero image ke neeche extra gap kam */
+    .hero-image {
+        margin-top: 15px !important;
+        margin-bottom: 0 !important;
+    }
+
+    .hero-image img {
+        margin-bottom: 0 !important;
+    }
+
+    /* Latest Guides ko image ke paas lao */
+    .guides {
+        padding: 25px 0 50px !important;
+    }
+
+    .guides .section-title {
+        margin-bottom: 30px !important;
+    }
+
+}
